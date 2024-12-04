@@ -1,0 +1,27 @@
+:root {
+  --bg-light: #f4f4f4;
+  --bg-dark: #232323;
+  --text-light: var(--bg-light);
+  --text-dark: var(--bg-dark)
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  margin: 0;
+  height: 92vh;
+  background: var(--bg-light);
+  color: var(--text-dark);
+}
+.app.dark {
+  background: var(--bg-dark);
+  color: var(--text-light);
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
