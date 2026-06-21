@@ -18,7 +18,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/list" element={<List />} />
           <Route path="/overview" element={<Overview />} />
-          <Route path="/payment" element={<Payment />} />
+          <Route path="/payments" element={<Payments />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
     </div>
